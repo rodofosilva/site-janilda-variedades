@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janilda Variedades</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>
+      <img src="IMG_0933.jpg" class="logo">
+    </h1>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h2>Moda, estilo e variedade para toda a família 💛</h2>
+    <p>Loja física e online em Buriti Bravo • Entregamos na região</p>
+    
+    <a href="https://wa.me/5599988345692" class="btn">Peça agora pelo WhatsApp</a>
+  </div>
+</section>
+
+<section class="destaques">
+  <div class="container">
+    <h2>✨ Destaques da Loja</h2>
+
+    <div class="grid">
+
+      <div class="card destaque" onclick="abrirGaleria('feminino')">
+        <span class="tag">🔥 Mais vendido</span>
+        <img src="short.jpg">
+        <div class="overlay">
+          <h3>Confecções</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <div class="card destaque" onclick="abrirGaleria('joias')">
+        <span class="tag">🔥 Mais vendido</span>
+        <img src="cordao.jpg">
+        <div class="overlay">
+          <h3>Joias & Semijoias</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="sobre">
+  <div class="container">
+    <h2>Sobre a Loja</h2>
+
+    <p>
+      Somos uma loja física e online em Buriti Bravo - MA, com mais de 15 anos de tradição, oferecendo qualidade, variedade e um atendimento de confiança para toda a família 💛
+    </p>
+
+    <p>
+      Aqui você encontra tudo em um só lugar: moda feminina, masculina, infantil, perfumes, joias, bolsas e muito mais.
+    </p>
+
+    <p class="info-destaque">
+      🚚 Entregamos em Buriti Bravo e região <br>
+      📲 Faça seu pedido pelo WhatsApp de forma rápida e fácil.
+    </p>
+
+  </div>
+</section>
+
+<section class="produtos">
+  <div class="container">
+    <h2>Categorias</h2>
+
+    <div class="grid"> <div class="card" onclick="abrirGaleria('feminino')"> 
+      <img src="IMG_1032.jpg" class="img-feminino"> 
+      <div class="overlay"> 
+        <h3>Moda Feminina</h3>
+         <p class="ver-mais">Ver opções</p>
+         </div> 
+        </div>
+
+      <div class="card" onclick="abrirGaleria('bolsas')">
+        <img src="IMG_0953.jpeg">
+        <div class="overlay">
+          <h3>Bolsas</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <!-- 🔥 ADICIONADAS -->
+
+      <div class="card" onclick="abrirGaleria('masculino')">
+        <img src="acad5d13-0e3b-4421-9dcc-cc64162d2346.JPG">
+        <div class="overlay">
+          <h3>Moda Masculina</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <div class="card" onclick="abrirGaleria('infantil')">
+        <img src="crianca.jpg">
+        <div class="overlay">
+          <h3>Moda Infantil</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <div class="card" onclick="abrirGaleria('adulto')">
+        <img src="294c0ca4-e913-4057-b4bd-0376d69113d6.JPG">
+        <div class="overlay">
+          <h3>Moda Adulto</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <div class="card" onclick="abrirGaleria('perfumes')">
+        <img src="IMG_1110 2.jpg">
+        <div class="overlay">
+          <h3>Perfumes</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <div class="card" onclick="abrirGaleria('joias')">
+        <img src="IMG_1121.jpg">
+        <div class="overlay">
+          <h3>Joias & Semijoias</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <div class="card" onclick="abrirGaleria('relogios')">
+        <img src="relogio.jpg">
+        <div class="overlay">
+          <h3>Relógios</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <div class="card" onclick="abrirGaleria('sandalias')">
+        <img src="IMG_1106.jpg">
+        <div class="overlay">
+          <h3>Sandálias</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <div class="card" onclick="abrirGaleria('toalhas')">
+        <img src="toalha.jpg">
+        <div class="overlay">
+          <h3>Toalhas</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <div class="card" onclick="abrirGaleria('cama')">
+        <img src="IMG_1122.jpg">
+        <div class="overlay">
+          <h3>Cama, Mesa & Banho</h3>
+          <p class="ver-mais">Ver opções</p>
+        </div>
+      </div>
+
+      <!-- 🔥 FIM DAS ADIÇÕES -->
+
+    </div>
+  </div>
+</section>
+
+<!-- 🔥 CONTATO (VOLTOU COMO ERA) -->
+<section class="contato">
+  <div class="container">
+    <div class="card-contato">
+      <h2>Entre em contato</h2>
+
+      <a href="https://wa.me/5599988345692" class="btn">
+        Peça agora pelo WhatsApp
+      </a>
+
+      <a href="https://instagram.com/janilda_variedades" class="btn insta">
+        Ver novidades e looks no Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Janilda Variedades</p>
+</footer>
+
+<a href="https://wa.me/5599988345692" class="whatsapp">💬</a>
+
+<div id="modal" class="modal">
+  <span class="fechar" onclick="fecharModal()">×</span>
+  <div id="modal-conteudo" class="modal-conteudo"></div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
